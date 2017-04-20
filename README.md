@@ -4,4 +4,4 @@ second version of site with updated react packages/syntax/etc.
 
 ### Getting Started 
 
-in the server.js directory, run: npm start
+in the server.js directory, run: **npm start**
