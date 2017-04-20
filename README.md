@@ -4,7 +4,7 @@ second version of site with updated react packages/syntax/etc.
 
 ### Getting Started 
 
-in the server.js directory, run: **npm start**
+in the server.js directory, run: ```npm start```
 
-```Note: no more webpack -w or node server```
+**Note: no more webpack -w or node server**
 
