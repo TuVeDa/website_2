@@ -5,7 +5,7 @@ import Navigation from './components/Navigation';
 import Projects from './components/Projects';
 import Team from './components/Team';
 
-
+// TODO: deliniate sections
 class App extends Component {
   render() {
     return (

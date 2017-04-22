@@ -24,6 +24,7 @@ class Navigation extends Component {
 				      	<a id="title" className="navbar-brand" href="#/Landing">TuVēDa</a>
 				    </div>
 
+            {/* TODO: navbar links work */}
 				    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul className="nav navbar-nav navbar-right">
 				        <li><a href="#/Team">Our Team</a></li>

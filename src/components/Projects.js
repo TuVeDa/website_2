@@ -30,6 +30,7 @@ class Projects extends Component {
             </div>
           </div>
 
+          {/* TODO: update color picker photo */}
           {/* Turner's Color Picker */}
           <div className="col-sm-12 col-md-6 projectBox" id="rightProject">
             <h4 className="projectTitle">Professional Portfolio</h4>
