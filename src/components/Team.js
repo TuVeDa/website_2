@@ -5,7 +5,7 @@ class Team extends Component {
   render() {
     return (
       <div id="teamRow">
-				<h1 className="row sectionTitle" >Our Team</h1>
+				<h1 className="sectionTitle row" >Our Team</h1>
 
 				<div className="row" id="profileRow">
 					<div className="col-sm-4 col-lg-6 profileBox" id="leftBox">

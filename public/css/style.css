@@ -74,9 +74,15 @@ SECTION: multi-page styles
 .sectionTitle{
 	font-size: 3em;
 	/*font-*/
-	margin-bottom: 1em;
+	margin: 0 0 1em 0;
 	color: #02DAF8;
 	text-shadow: 0px 0px 4px #C0C0C0;
+  width: auto;
+}
+
+.sectionTitle.row{
+  margin: 0;
+  width: auto;
 }
 
 /*
@@ -92,7 +98,7 @@ SECTION: landing page
     bottom: 0;
     position: absolute;*/
     width: auto;
-    height: 600px;
+    height: 650px;
     background: #C0C0C0 url("../img/gears2.jpg") no-repeat center;
     background-size: 100% 100%;
 }
@@ -133,11 +139,15 @@ SECTION: Team page, about us
 
 #teamRow{
   	margin: 0 2em 0 2em;
+    height: 500px;
+    /*background-color: #eeeeee;*/
+    /*width: auto;*/
 }
-
 
 #profileRow{
 	margin-top: 4em;
+  /*background-color: #eeeeee;*/
+  /*width: auto;*/
 }
 
 .profileBox{
@@ -180,6 +190,7 @@ SECTION: Projects, portfolio
 #projectRow{
 	margin: 3em 2em 0 2em;
 	text-align: center;
+  height: 450px;
 }
 
 .projectBox{
