@@ -1,5 +1,9 @@
 // Include Server Dependencies
 var express = require("express");
+const path = require('path');
+const app = express();
+
+
 // var bodyParser = require("body-parser");
 // var logger = require("morgan");
 // var mongoose = require("mongoose");
@@ -13,9 +17,19 @@ var express = require("express");
 
 // Create Instance of Express
 
-var app = express();
-// Sets an initial port. We'll use this later in our listener
-var PORT = process.env.PORT || 80;
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+
+});
+
+app.listen(3000);
+console.log("on port 3000");
+
+// var app = express();
+// // Sets an initial port. We'll use this later in our listener
+// var PORT = process.env.PORT || 3000;
 
 // // Run Morgan for Logging
 // app.use(logger("dev"));
@@ -45,7 +59,9 @@ var PORT = process.env.PORT || 80;
 //
 // // Main "/" Route
 // app.get("/", function(req, res) {
-//   res.sendFile(__dirname + "/public/index.html");
+//   res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
+//   console.log(path.resolve(__dirname, 'build', 'index.html'));
+//   // res.sendFile(__dirname + "/public/index.html");
 // });
 //
 // app.post("/contact", function(req,res) {
@@ -101,6 +117,6 @@ var PORT = process.env.PORT || 80;
 // -------------------------------------------------
 
 // Listener
-app.listen(PORT, function() {
-  console.log("App listening on PORT: " + PORT);
-});
+// app.listen(PORT, function() {
+//   console.log("App listening on PORT: " + PORT);
+// });
