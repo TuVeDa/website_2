@@ -24,8 +24,8 @@ app.get('/', function (req, res) {
 
 });
 
-app.listen(3000);
-console.log("on port 3000");
+app.listen(80);
+console.log("80");
 
 // var app = express();
 // // Sets an initial port. We'll use this later in our listener
