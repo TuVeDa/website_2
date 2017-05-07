@@ -1,21 +1,23 @@
 
-/*  http://www.intimateweddings.com/blog/five-color-palettes-cobalt-blue/  */
-/* Title Font:
+/*
 
-http://www.dafont.com/xperia.font?text=tuveda&fpp=100&psize=l
+https://coolors.co/7ec9ac-0b4f6c-fbfbff-11b5e4-b3b3b3
 
-Possible Sub Font
+Light Blue: 11B5E4;
+Grey: B3B3B3;
+White: FBFBFF;
+Dark Blue: 0B4F6C;
+Green: 7EC9AC;
 
-http://www.dafont.com/zekton.font?text=What+We+Do+Here&fpp=100&psize=xs
-
-KEY Color: 0A46F9; ---> http://paletton.com/
+11B5E4
 
 */
+
 html,body {
     height:100%;
     margin:0;
     padding:0;
-
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 h1 {
@@ -28,10 +30,8 @@ SECTION: navbar
 
 */
 .navbar {
-	background-color: #02DAF8;
+	background-color: #11B5E4;
   margin-bottom: 0px;
-	/*background: -webkit-linear-gradient(left, #05E0FF, #0A45F9);*/
-
 }
 
 /* nav buttons*/
@@ -44,13 +44,13 @@ SECTION: navbar
 }
 
 .nav.navbar-nav.navbar-right li a:hover{
-	color: #0A45F9;
-	background-color: #7DEEFE;
+	color: #FBFBFF;
+	background-color: #0B4F6C;
 }
 
 .nav.navbar-nav.navbar-right li a:active{
-	color: #5D85FD;
-	background-color: #4FE7FC;
+	color: #0B4F6C;
+	background-color: #B3B3B3;
 }
 
 #title{
@@ -58,11 +58,11 @@ SECTION: navbar
 }
 
 #title:hover{
-	color: #0A45F9;
+	color: #0B4F6C;
 }
 
 #title:active{
-	color: #5D85FD;
+	color: #B3B3B3;
 }
 
 /*
@@ -73,11 +73,10 @@ SECTION: multi-page styles
 
 .sectionTitle{
 	font-size: 3em;
-	/*font-*/
 	margin: 0 0 1em 0;
-	color: #02DAF8;
-	text-shadow: 0px 0px 4px #C0C0C0;
+	color: #11B5E4;
   width: auto;
+  font-weight: bold;
 }
 
 .sectionTitle.row{
@@ -92,11 +91,6 @@ SECTION: landing page
 */
 
 #landingWindow{
-    /*top: 50px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;*/
     width: auto;
     height: 650px;
     background: #C0C0C0 url("../img/gears2.jpg") no-repeat center;
@@ -115,7 +109,7 @@ SECTION: landing page
 #landingTitle{
 	font-weight: bold;
 	font-size: 6em;
-	color: #02DAF8;
+	color: #11B5E4;
 	text-shadow: 0px 0px 10px #C0C0C0;
   margin-top: 0px;
 }
@@ -130,57 +124,6 @@ SECTION: landing page
 	font-style: italic;
 }
 
-
-/*
-
-SECTION: Team page, about us
-
-*/
-
-#teamRow{
-  	margin: 0 2em 0 2em;
-    height: 500px;
-    /*background-color: #eeeeee;*/
-    /*width: auto;*/
-}
-
-#profileRow{
-	margin-top: 4em;
-  /*background-color: #eeeeee;*/
-  /*width: auto;*/
-}
-
-.profileBox{
-	text-align: center;
-}
-
-.profilePic{
-	width: 11em;
-	height: 11em;
-	border-radius: 10em 10em;
-	margin: auto;
-	display: block;
-	box-shadow: 0px 0px 15px grey;
-}
-
-.teammate{
-	margin: 15px 0px 2px 0px;
-	color: #0A45F9;
-	text-shadow: 0px 0px 2px #C0C0C0;
-}
-
-.subheading{
-	margin-bottom: 0px;
-	font-style: italic;
-	color: #02DAF8;
-	text-shadow: 0px 0px 3px #C0C0C0;
-}
-
-.teammateBlurb{
-	color: #808080;
-	margin-bottom: 3em;
-}
-
 /*
 
 SECTION: Projects, portfolio
@@ -188,41 +131,40 @@ SECTION: Projects, portfolio
 */
 
 #projectRow{
-	margin: 3em 2em 0 2em;
+  padding: 2em 3em 2em 3em;
 	text-align: center;
-  height: 450px;
+  background-color: #eaeaea;
 }
 
 .projectBox{
-	margin-bottom: 3em;
+	margin-bottom: 2em;
+  padding-top: 50px;
 }
 
 .projectTitle{
-	color: #0A45F9;
-	text-shadow: 0px 0px 2px #C0C0C0;
+	color: #11B5E4;
+  font-weight: bold;
 	margin-bottom: 0px;
+  font-size: 20px;
 }
 
 .projectSubTitle{
-	color: #02DAF8;
-	text-shadow: 0px 0px 3px #C0C0C0;
+	color: #0B4F6C;
+  font-weight: bold;
 	margin-top: 1em;
+  font-size: 16px;
 }
 
 .projectBlurb{
 	color: #808080;
 	padding: 1em 1em 1em 1em;
-}
-
-.projectInfo{
-	margin-top: 1em;
+  font-size: 16px;
 }
 
 .screenShot{
-	width: 20em;
-	height: 15em;
-	border-radius: 2em;
-	margin: auto;
+	width: 25em;
+	height: 20em;
+	border-radius: 10px;
 	box-shadow: 0px 0px 15px grey;
 }
 
@@ -234,9 +176,54 @@ SECTION: Projects, portfolio
 	list-style-type: none;
 	padding-left: 0;
 	color: #808080;
+  font-size: 16px;
 }
 
+/*
 
+SECTION: Team page, about us
+
+*/
+
+#teamRow{
+    padding: 2em 3em 2em 3em;
+}
+
+#profileRow{
+	margin-top: 4em;
+}
+
+.profileBox{
+	text-align: center;
+}
+
+.profilePic{
+	width: 15em;
+	height: 15em;
+	border-radius: 10em 10em;
+	margin: auto;
+	display: block;
+	box-shadow: 0px 0px 15px grey;
+}
+
+.teammate{
+	margin: 15px 0px 2px 0px;
+	color: #11B5E4;
+  font-weight: bold;
+
+}
+
+.subheading{
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #0B4F6C;
+}
+
+.teammateBlurb{
+	color: #808080;
+	margin: 1em 0 3em 0;
+  font-size: 16px;
+}
 
 /*
 
@@ -259,13 +246,13 @@ SECTION: contact page
 }
 
 #formRow button:hover{
-	background-color: #02DAF8;
+	background-color: #11B5E4;
 	color: #808080;
 }
 
 #formRow button:active{
 	background-color: #808080;
-	color: #02DAF8;
+	color: #11B5E4;
 }
 
 .form-control{
@@ -278,7 +265,7 @@ SECTION: contact page
 
 .form-control:focus{
 	box-shadow: none;
-	border-bottom: 2px solid #02DAF8;
+	border-bottom: 2px solid #11B5E4;
 }
 
 #newsletter{
