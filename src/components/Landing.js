@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Landing extends Component{
   render(){
     return (
-      <div id="landingWindow" >
+      <div id="landingWindow">
         <div className="titleRow">
           <h1 id="landingTitle"  >
             <span>T</span>

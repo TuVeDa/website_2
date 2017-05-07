@@ -21,7 +21,7 @@ class Navigation extends Component {
 					        <span className="icon-bar"></span>
 					        <span className="icon-bar"></span>
 					    </button>
-				      	<a id="title" className="navbar-brand" href="#/Landing">TuVēDa</a>
+				      	<a id="title" className="navbar-brand" href="#/">TuVēDa</a>
 				    </div>
 
             {/* TODO: navbar links work */}
@@ -29,7 +29,7 @@ class Navigation extends Component {
 				      <ul className="nav navbar-nav navbar-right">
 				        <li><a href="#/Team">Our Team</a></li>
 				        <li><a href="#/Project">Our Projects</a></li>
-				        <li><a href="#/Contact">Contact Us</a></li>
+				        {/* <li><a href="#/Contact">Contact Us</a></li> */}
 				      </ul>
 				    </div>
 
